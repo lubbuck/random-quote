@@ -17,7 +17,7 @@
         "pestphp/pest": "^2.35"
     },
     "require": {
-        "guzzlehttp/guzzle": "^7.9"
+        "guzzlehttp/guzzle": "^7.0.1"
     },
     "config": {
         "allow-plugins": {
