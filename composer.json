@@ -1,0 +1,27 @@
+{
+    "name": "lubbuck/random-quote",
+    "description": "A simple package to get quotes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lubbuck\\RandomQuote\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Luis"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
